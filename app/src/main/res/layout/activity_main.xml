@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="Progress"
         android:id="@+id/text_message"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -34,7 +34,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="start"
+        android:text="sendMessage(message)"
         android:id="@+id/btn_start"
         android:layout_below="@+id/progress_download"
         android:layout_alignParentLeft="true"
@@ -44,7 +44,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="runnable"
+        android:text="post(runnable)"
         android:id="@+id/btn_runnable"
         android:layout_alignTop="@+id/btn_start"
         android:layout_toRightOf="@+id/btn_start"
@@ -58,5 +58,24 @@
         android:layout_below="@+id/progress_download"
         android:layout_toRightOf="@+id/btn_runnable"
         android:layout_toEndOf="@+id/btn_runnable" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Count"
+        android:id="@+id/text_count"
+        android:layout_below="@+id/btn_start"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count Start"
+        android:id="@+id/btn_count"
+        android:layout_below="@+id/text_count"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
